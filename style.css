@@ -1,6 +1,10 @@
 body {
-  background: #150f21;
+  background-image: url('https://cdn.wallpapersafari.com/10/63/9enofj.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
   font-size: 18px;
+  width: 100%;
+  height:100%;
 }
 
 p {
@@ -30,8 +34,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background: #EB5160;
-  color: #fff;
+  background: black;
+  color: black;
   cursor: pointer;
   margin-bottom: 60px;
 }
@@ -61,19 +65,19 @@ p {
 }
 
 .card-color-0 {
-  background-color: #EB5160;
+  background-color:white;
 }
 
 .card-color-1 {
-  background-color: #8F3985;
+  background-color: white;
 }
 
 .card-color-2 {
-  background-color: #8DAA91;
+  background-color: white;
 }
 
 .card-color-3 {
-  background-color: #888DA7;
+  background-color: white;
 }
 
 
@@ -126,7 +130,7 @@ p {
 }
 
 .close-content span {
-  background: #222;
+  background: black;
   width: 30px;
   height: 6px;
   display: block;
