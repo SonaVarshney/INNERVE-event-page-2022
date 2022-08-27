@@ -165,4 +165,4 @@ windowWidth = window.innerWidth;
 windowHeight = window.innerHeight;
 }
 
-var paragraphText = "hello ";
+var paragraphText = '<p> hello </p>';
