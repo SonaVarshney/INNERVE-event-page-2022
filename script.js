@@ -166,3 +166,9 @@ windowHeight = window.innerHeight;
 }
 
 var paragraphText=' ';
+let divElement = document.createElement('div');
+let textNode = document.createTextNode('Code,hack,debug.Do all the miracles that you can with your laptops.Participate in these exhilarating Computer Science Engineering events.');
+divElement.appendchild(textNode);
+let containerDiv = document.querySelector('.container');
+containerDiv.appendChild(divElement);
+
