@@ -52,7 +52,7 @@ body {
 }
 @media (min-width: 800px) {
   .card {
-    height: 600px;
+    height: 620px;
   }
 }
 .card:before {
@@ -111,6 +111,9 @@ body {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.2;
+  margin-top: -253px; 
+  color: #BAB0EA;
+  font-family: 'Corinthia', cursive;
 }
 
 .copy {
