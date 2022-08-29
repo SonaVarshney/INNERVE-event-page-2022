@@ -50,7 +50,15 @@ body {
     left: -6px;
     top: -6px;
   }
-  
+  .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: -253px; 
+  color: #BAB0EA;
+  font-family: 'Corinthia', cursive;
+}
+
   .card h1 {
     position: relative;
     padding: 190px 0px 100px 10px;
