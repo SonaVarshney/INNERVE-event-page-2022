@@ -113,16 +113,6 @@ var offsetY = (windowHeight / 2 - cardPosition.height / 2 - cardPosition.top) / 
 cover.style.transform = 'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
 }
 
-
-function onCloseClick() {
-
-openContent.className = openContent.className.replace(' open', '');
-
-animateCoverBack(currentCard);
-
-animateOtherCards(currentCard, false);
-}
-
 function animateOtherCards(card, out) {
 var delay = 100;
 for (var i = 0; i < nCards; i++) {
