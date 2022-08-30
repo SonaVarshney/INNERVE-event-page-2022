@@ -103,58 +103,66 @@ function setCoverColor(cardStyle) {
 cover.style.backgroundColor = cardStyle.backgroundColor;
 }
 
-// function scaleCoverToFillWindow(cardPosition) {
+function scaleCoverToFillWindow(cardPosition) {
 
-// var scaleX = windowWidth / cardPosition.width;
-// var scaleY = windowHeight / cardPosition.height;
-// var offsetX = (windowWidth / 2 - cardPosition.width / 2 - cardPosition.left) / scaleX;
-// var offsetY = (windowHeight / 2 - cardPosition.height / 2 - cardPosition.top) / scaleY;
+var scaleX = windowWidth / cardPosition.width;
+var scaleY = windowHeight / cardPosition.height;
+var offsetX = (windowWidth / 2 - cardPosition.width / 2 - cardPosition.left) / scaleX;
+var offsetY = (windowHeight / 2 - cardPosition.height / 2 - cardPosition.top) / scaleY;
 
-// cover.style.transform = 'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
-// }
+cover.style.transform = 'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
+}
+function onCloseClick() {
 
-// function animateOtherCards(card, out) {
-// var delay = 100;
-// for (var i = 0; i < nCards; i++) {
+openContent.className = openContent.className.replace(' open', '');
 
-// if (cards[i] === card) continue;
-// if (out) animateOutCard(cards[i], delay);
-// else animateInCard(cards[i], delay);
-// delay += 100;
-// }
-// }
+animateCoverBack(currentCard);
 
+animateOtherCards(currentCard, false);
+}
 
-// function animateOutCard(card, delay) {
-// setTimeout(function() {
-// card.className += ' out';
-// }, delay);
-// }
+function animateOtherCards(card, out) {
+var delay = 100;
+for (var i = 0; i < nCards; i++) {
 
-// function animateInCard(card, delay) {
-// setTimeout(function() {
-// card.className = card.className.replace(' out', '');
-// }, delay);
-// }
+if (cards[i] === card) continue;
+if (out) animateOutCard(cards[i], delay);
+else animateInCard(cards[i], delay);
+delay += 100;
+}
+}
 
 
-// function getCardElement(el) {
-// if (el.className.indexOf('card ') > -1) return el;
-// else return getCardElement(el.parentElement);
-// }
+function animateOutCard(card, delay) {
+setTimeout(function() {
+card.className += ' out';
+}, delay);
+}
+
+function animateInCard(card, delay) {
+setTimeout(function() {
+card.className = card.className.replace(' out', '');
+}, delay);
+}
 
 
-// function resize() {
-// if (pageIsOpen) {
+function getCardElement(el) {
+if (el.className.indexOf('card ') > -1) return el;
+else return getCardElement(el.parentElement);
+}
 
-// var cardPosition = currentCard.getBoundingClientRect();
-// setCoverPosition(cardPosition);
-// scaleCoverToFillWindow(cardPosition);
-// }
-// windowWidth = window.innerWidth;
-// windowHeight = window.innerHeight;
-// }
 
-// var paragraphText=' ';
+function resize() {
+if (pageIsOpen) {
+
+var cardPosition = currentCard.getBoundingClientRect();
+setCoverPosition(cardPosition);
+scaleCoverToFillWindow(cardPosition);
+}
+windowWidth = window.innerWidth;
+windowHeight = window.innerHeight;
+}
+
+var paragraphText=' ';
 
 
