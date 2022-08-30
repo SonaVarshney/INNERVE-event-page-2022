@@ -18,6 +18,8 @@ html, body {
 body {
   display: grid;
   place-items: center;
+  background-image: url("5432299.jpg");
+
 }
 
 .page-content {
