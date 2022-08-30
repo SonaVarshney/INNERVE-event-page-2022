@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://cdn.wallpapersafari.com/10/63/9enofj.jpg');
+  background-image: url("5432299.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   font-size: 18px;
@@ -39,7 +39,7 @@ a:active { text-decoration: none; }
   margin-right: auto;
   position: relative;
   background: black;
-  color: black;
+  color: white;
   cursor: pointer;
   margin-bottom: 60px;
 }
@@ -69,20 +69,16 @@ a:active { text-decoration: none; }
 }
 
 .card-color-0 {
-  background-color:lightblue;
-}
+  background: linear-gradient(to bottom right,#3bd9f5,rgb(224, 97, 250) );}
 
 .card-color-1 {
-  background-color:lightblue;
-}
+  background: linear-gradient(to bottom right,#3bd9f5,rgb(224, 97, 250) );}
 
 .card-color-2 {
-  background-color:lightblue;
-}
+  background: linear-gradient(to bottom right,#3bd9f5,rgb(224, 97, 250) );}
 
 .card-color-3 {
-  background-color:lightblue;
-}
+  background: linear-gradient(to bottom right,#3bd9f5,rgb(224, 97, 250) );}
 
 
 .cover {
