@@ -117,10 +117,11 @@ body {
 }
 
 .copy {
-  font-family: var(--font-serif);
+  font-family: 'Corinthia', cursive;
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.35;
+  color: #BAB0EA;
 }
 
 .btn {
@@ -136,7 +137,7 @@ body {
   border: none;
 }
 .btn:hover {
-  background-color: #0d0d0d;
+  background-color: #532E98;
 }
 .btn:focus {
   outline: 1px dashed yellow;
