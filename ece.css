@@ -50,6 +50,12 @@ body {
     margin-left: 200px;
   }
 } 
+@media (max-width: 1150px) and (min-width: 900px) {
+  .page-content {
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 150px;
+  }
+} 
 
 .card {
   position: relative;
