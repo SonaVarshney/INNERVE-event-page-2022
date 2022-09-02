@@ -1,5 +1,5 @@
 body {
-  background-image: url("5432299.jpg");
+  background-image: url("5432299.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   font-size: 18px;
