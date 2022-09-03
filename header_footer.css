@@ -17,6 +17,10 @@
         background-attachment: scroll;
       
   }
+.main{
+z-index:1100;
+position: absolute;
+}
   nav{
     height: 80px;
     width: 100%;
