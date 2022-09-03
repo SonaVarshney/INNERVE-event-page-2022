@@ -11,6 +11,7 @@
     
         font-family:'Quicksand';
         background: url("b.jpg")no-repeat center fixed;   
+       background-size:100% 1000vh 1000vw;
         background-size:cover;
         image-rendering: auto;
         align-items: flex-end;
