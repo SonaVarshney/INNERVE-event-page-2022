@@ -12,6 +12,8 @@
 
 html, body {
   height: 100%;
+  overflow-x: hidden;
+
 /*   background-color: lightblue; */
 }
 
@@ -19,13 +21,22 @@ body {
   display: grid;
   place-items: center;
   background-image: url("5432299.jpg");
+  position: relative
 
 }
-
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
 .page-content {
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
+  padding-top: 7rem;
+
   max-width: 1024px;
 /*   margin: 0 auto; */
   font-family: var(--font-sans);
@@ -34,7 +45,8 @@ body {
   .page-content {
 /*     grid-template-columns: repeat(2, 1fr); */
      grid-template-columns: repeat(1, 1fr);
-     margin-left: 200px;
+     margin-left: 225px;
+
   }
 }
 @media (min-width: 800px) {

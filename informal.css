@@ -13,26 +13,38 @@
 html,body {
   height: 100%;
 /*   background-color: #06074e; */
+overflow-x: hidden;
+
 }
 
 body {
   display: grid;
   place-items: center;
   background-image: url("5432299.jpg");
+  position: relative
 
+}
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
 }
 
 .page-content {
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
+  padding-top: 7rem;
+
   max-width: 1024px;
 /*   margin: 0 auto; */
   font-family: var(--font-sans);
 }
 @media (max-width: 600px) {
   .page-content {
-    margin-left: 200px;
+    margin-left: 225px;
     grid-template-columns: repeat(1, 1fr);
 /*     grid-template-columns: repeat(2, 1fr); */
   }
