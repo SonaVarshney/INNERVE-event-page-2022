@@ -13,6 +13,8 @@
         background: url("b.jpg") no-repeat center fixed;   
         image-rendering: auto;
         background-size: cover;
+        background-repeat:no-repeat;
+        background-position:center;
         align-items: flex-end;
         background-attachment: scroll
       
@@ -20,7 +22,7 @@
   nav{
     height: 80px;
     width: 100%;
-     z-index: 1100;
+    z-index: 1100;
   }
 
   nav ul{
