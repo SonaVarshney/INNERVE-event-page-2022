@@ -13,8 +13,6 @@
         background: url("b.jpg") no-repeat center fixed;   
         image-rendering: auto;
         background-size: cover;
-        background-repeat:no-repeat;
-        background-position:center;
         align-items: flex-end;
         background-attachment: scroll
       
