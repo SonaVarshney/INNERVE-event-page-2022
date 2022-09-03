@@ -10,11 +10,12 @@
   body{
     
         font-family:'Quicksand';
-        background: url("b.jpg") no-repeat center fixed;   
-  -webkit-background-size: cover;
-  background-size: cover;
+        background: url("b.jpg") center fixed;   
   width: 100%;
   height:100%;   
+      position:relative;
+      background-repeat: no-repeat;
+      background-size:100% 100vh;
         image-rendering: auto;
         align-items: flex-end;
         background-attachment: scroll
