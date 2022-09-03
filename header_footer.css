@@ -10,7 +10,7 @@
   body{
     
         font-family:'Quicksand';
-        background: url("b.jpg")no-repeat center fixed;   
+        background: url("b.jpg") no-repeat center fixed;   
         background-size:cover;
         image-rendering: auto;
         align-items: flex-end;
