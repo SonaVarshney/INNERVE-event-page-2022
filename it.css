@@ -71,7 +71,7 @@ nav{
 } 
 
 .card {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
