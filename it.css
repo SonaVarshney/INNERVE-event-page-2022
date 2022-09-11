@@ -36,7 +36,7 @@ nav{
   grid-gap: 1rem;
   padding: 1rem;
   padding-top: 7rem;
-  
+  position: absolute;
   max-width: 1024px;
 /*   margin: 0 auto; */
   font-family: var(--font-sans);
