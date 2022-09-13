@@ -144,14 +144,14 @@ nav{
   font-weight: bold;
   line-height: 1.2; 
   color: #ffffff;
-  font-family: 'Corinthia', cursive;
+/*   font-family: 'Corinthia', cursive; */
 }
 .copy {
   font-size: 1.125rem;
-  font-style: italic;
+/*   font-style: italic; */
   line-height: 1.35;
   color: #ffffff;
-  font-family: 'Corinthia', cursive;
+/*   font-family: 'Corinthia', cursive; */
 }
 
 .btn {
