@@ -111,10 +111,10 @@ nav{
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(https://thumbs.dreamstime.com/z/adventure-treasure-hunt-vintage-map-compass-magnifier-94724350.jpg);
+  background-image: url(https://t4.ftcdn.net/jpg/03/42/02/61/360_F_342026119_opMqnYwxarbv6rkLNdZPjmqrh6knhuMM.jpg);
 }
 .card:nth-child(2):before {
-  background-image: url(https://thumbs.dreamstime.com/z/escape-room-game-banner-old-vintage-key-padlock-blue-background-222055987.jpg);
+  background-image: url(https://imageio.forbes.com/specials-images/imageserve/615206bfc89c55ae9b817f17/PanIQ-Room/960x0.jpg?format=jpg&width=960);
 }
 .card:nth-child(3):before {
   background-image: url(https://t4.ftcdn.net/jpg/02/29/92/99/360_F_229929939_SPStIAqbggg0CVqZFrQYaj2ZebyGxAqF.jpg);
@@ -141,14 +141,14 @@ nav{
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.2;
-  font-family: 'Corinthia', cursive;
+/*   font-family: 'Corinthia', cursive; */
   color: #ffffff;
 }
 
 .copy {
-  font-family: 'Corinthia', cursive;
+/*   font-family: 'Corinthia', cursive; */
   font-size: 1.125rem;
-  font-style: italic;
+/*   font-style: italic; */
   line-height: 1.35;
   color: #ffffff;
 }
