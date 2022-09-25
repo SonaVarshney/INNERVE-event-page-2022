@@ -1,388 +1,376 @@
-@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-/* @import "./header_footer_events.css"; */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+<!DOCTYPE html>
+<html lang="en">
 
-:root {
-  --d: 700ms;
-  --e: cubic-bezier(0.19, 1, 0.22, 1);
-  --font-sans: "Rubik", sans-serif;
-  --font-serif: "Cardo", serif;
-}
+<head>
+  <meta charset="UTF-8">
+  <title>INNERVE MAE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-* {
-  box-sizing: border-box;
-}
+  <link rel="stylesheet" href="../css/events_sep.css">
+  <link rel="stylesheet" href="../css/header_footer.css">
+  <!-- <link rel="stylesheet" href="../css\header_footer.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class='navContainer' style="background-color: #671b83da;">
+
+    <a href="./landing.html" class='navLogo'><img src="../assets/header_footer/logo.webp" alt=""></a>
 
 
-html,
-body {
-  height: 100%;
-  overflow-x: hidden;
-  /*background: linear-gradient(to bottom right,rgb(8, 2, 22),#05032e); */
-  background: url("../assets/events/eventbg.jpg") no-repeat;
-  background-size: cover;
-}
+    <input type="checkbox" id='menu-bar' />
+    <label for="menu-bar">
+      <img src="../assets/header_footer/hamburger.png" alt="">
+    </label>
+    <nav class='navbar'>
+      <ul>
+        <a href="./hacks.html">
 
-body {
-  display: grid;
-  place-items: center;
 
-  position: relative
-}
+          <li>
+            <p>Innerve Hacks</p>
+          </li>
+        </a>
+        <a href="./events.html">
+          <li>
+            <p>Events</p>
+          </li>
+        </a>
+        <a href="./gallery.html">
+          <li>
+            <p>Gallery</p>
+          </li>
+        </a>
+        <a href="./sponsor.html">
 
-/* nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-} */
+          <li>
+            <p>Sponsors</p>
+          </li>
+        </a>
+        <a href="./timeline.html">
 
-.heading {
-  font-family: 'Neucha', cursive;
-  color: white;
-  font-size: 40px;
-  text-shadow: 0 0 5px #962AA4, 0 0 10px #7DA9F7,
-    0 0 21px #F67EE1;
-}
+          <li>
+            <p>Timeline</p>
+          </li>
+        </a>
+        <a href="./teams.html">
 
-@media (max-width: 991px) {
-  .heading {
-    margin-top: 2.5rem;
-  }
+          <li>
+            <p>Team</p>
+          </li>
+        </a>
+      </ul>
+    </nav>
+  </div>
+  <!-- <div class="heading">
+    <h class="neon">COMING SOON</h>
+  </div> -->
 
-  .neon {
-    font-size: 3rem;
-    margin-top: 2rem;
-  }
-}
 
-@keyframes neon {
 
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #4984f0, 0 0 3vw #4984f0, 0 0 10vw #4984f0, 0 0 10vw #4984f0, 0 0 .4vw #2132f4, .5vw .5vw .1vw #b091d4;
-    color: #6fb7dd;
-  }
+  <div class="eventsContainer">
+    <div class="heading">
+      <h1>MAE EVENTS</h1>
+    </div>
+  </div>
 
-  50% {
-    text-shadow: 0 0 .5vw #060538, 0 0 1.5vw #060538, 0 0 5vw #060538, 0 0 5vw #060538, 0 0 .2vw #060538, .5vw .5vw .1vw #40340A;
-    color: #b091d4;
-  }
-}
 
-.scrolled {
-  background-color: #671b83da;
-}
+  <h1 class="head">
+    Main
+  </h1>
 
-.navbar ul li p:hover {
-  color: #faa3e9;
-}
+  <div class="events">
 
-@media (max-width:600px) {
-  .navContainer .navbar {
-    background: #370963;
-  }
-}
+    <div class="event">
+      <img
+        src="https://lh6.googleusercontent.com/5egpKty7CTjUDPZ0vF6HZizayPQIiKjwFLrgvp_mln_VBw83KGaxywNeGnIWlqwX5ks=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Quests of Galaxy</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        In the grand calculus of Multiverse, it's all about discoveries and surprises. So let's explore the realm of
+        tech and tricks.
+        We bring you 'QUESTS OF GALAXY' - an ultimate technical quiz with three fun-filled rounds.<br>
+        <br><br>
+        𝗣𝗿𝗶𝘇𝗲: Pool of 30K<br>
+        𝐓𝐞𝐚𝐦 𝐬𝐢𝐳𝐞: 1-2<br>
+        𝗗𝗮𝘁𝗲: 1st October, 2022<br>
+        𝗧𝗶𝗺𝗲: 4 to 6 pm<br>
+        𝗩𝗲𝗻𝘂𝗲: Seminar Hall, IGDTUW<br>
+        𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 𝐅𝐞𝐞: 25<br>
+        𝗙𝗼𝗿 𝗳𝘂𝗿𝘁𝗵𝗲𝗿 𝗾𝘂𝗲𝗿𝗶𝗲𝘀 𝗰𝗼𝗻𝘁𝗮𝗰𝘁: Shelly Bhalla (+91 9871055460)
 
-@media screen and (max-width: 600px) {
-  .navbar li {
-    margin: 20px 0;
-  }
-}
+        <form action="https://forms.gle/dZJHmxZjgaht5hfLA">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
 
-.page-content {
-  display: grid;
-  grid-gap: 1rem;
-  padding: 1rem;
-  padding-top: 7rem;
 
-  max-width: 1024px;
-  /*   margin: 0 auto; */
-  font-family: var(--font-sans);
-}
+      </div>
+    </div>
 
-@media (max-width: 600px) {
-  .page-content {
-    /*     grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 150px;
+    <div class="event">
+      <img
+        src="https://lh6.googleusercontent.com/c40UVSxJQt3ah6PIl9uEiM-FQ9vUKmrIm8fDaxcwEL0O4XazmhPxvPgrY51BYgyq2PY=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Tesseract</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        𝙇𝙚𝙩 𝙤𝙪𝙧 𝘼𝙄 𝙝𝙖𝙣𝙙𝙡𝙚 𝙞𝙩! 🤖
+        Get ready to dive into the Multiverse of Madness, since we’re bringing to you~
+        '𝐓𝐞𝐬𝐬𝐞𝐫𝐚𝐜𝐭' - an ML and AI-based hackathon, that attempts to find solutions to various challenges faced
+        by all of us in our everyday lives. 🤌🏻
+        <br><br>
+        𝗣𝗿𝗶𝘇𝗲: Pool of 35K<br>
+        𝐃𝐚𝐭𝐞: 30th September, 2022<br>
+        𝐓𝐞𝐚𝐦 𝐬𝐢𝐳𝐞: 1 to 3<br>
+        𝐓𝐢𝐦𝐞: 10 am to 12.30 pm<br>
+        𝐕𝐞𝐧𝐮𝐞: Auditorium, IGDTUW <br>
 
-  }
-}
+        𝐅𝐨𝐫 𝐟𝐮𝐫𝐭𝐡𝐞𝐫 𝐪𝐮𝐞𝐫𝐢𝐞𝐬, 𝐜𝐨𝐧𝐭𝐚𝐜𝐭: tesseract.mlai@gmail.com<br>
+        Nandini Parashar(+91 8920729494)
+        <form action="https://forms.gle/PHLqQEM5yRg7Ai1h6">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
 
-@media (min-width: 800px) {
-  .page-content {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+      </div>
+    </div>
 
-@media (max-width: 890px) and (min-width: 600px) {
-  .page-content {
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 200px;
-  }
-}
+    <div class="event">
+      <img
+        src="https://lh3.googleusercontent.com/Tfze6rcrxRc2xI7wnk-733X0BqinOJQ_tFRMoN4YemOhoxX9wvt6QikTrdrasjo2R3w=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Loose Screws</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-@media (max-width: 1150px) and (min-width: 900px) {
-  .page-content {
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 150px;
-  }
-}
+        𝐈𝐧𝐧𝐞𝐫𝐯𝐞'𝟐𝟐 brings to you '𝑳𝒐𝒐𝒔𝒆 𝑺𝒄𝒓𝒆𝒘𝒔'.
 
-.card {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  padding: 1rem;
-  width: 300px;
-  text-align: center;
-  margin-left: -150px;
-  margin-right: 170px;
-  color: whitesmoke;
-  background-color: whitesmoke;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-}
+        𝑆𝑐𝑟𝑒𝑤𝑖𝑛𝑔 𝑛𝑢𝑡𝑠 𝑎𝑛𝑑 ℎ𝑢𝑛𝑡𝑖𝑛𝑔 𝑏𝑢𝑐𝑘𝑠..!
 
-@media (min-width: 900px) {
-  .card {
-    height: 590px;
-  }
-}
+        Guess mechanical doodles, go on a treasure hunt, and design mechanical parts on Solidworks to win amazing
+        prizes.
+        <br><br>
+        𝐏𝐫𝐢𝐳𝐞: Pool of 32K<br>
+        𝐓𝐞𝐚𝐦 𝐬𝐢𝐳𝐞: 2<br>
+        𝐃𝐚𝐭𝐞: 1st October, 2022<br>
+        𝐓𝐢𝐦𝐞: 10 am to 12:30 pm<br>
+        𝐕𝐞𝐧𝐮𝐞: B.Arch - 109, IGDTUW<br>
+        𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 𝐅𝐞𝐞: 25<br>
 
-.card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%;
-  background-size: cover;
-  background-position: 0 0;
-  transition: transform calc(var(--d) * 1.5) var(--e);
-  pointer-events: none;
-}
+        𝐅𝐨𝐫 𝐟𝐮𝐫𝐭𝐡𝐞𝐫 𝐪𝐮𝐞𝐫𝐢𝐞𝐬, 𝐜𝐨𝐧𝐭𝐚𝐜𝐭: loosescrewsmae22@gmail.com<br>
+        Navya Srivastava (+91 9956081642)<br>
+        Hritika (+91 8603295048)
 
-.card:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
-  transform: translateY(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
-}
 
-.card:nth-child(1):before {
-  background-image: url(https://img.lovepik.com/background/20211021/large/lovepik-high-tech-modern-machine-hand-information-background-image_500333092.jpg);
-}
+        <form action="https://forms.gle/1HvW9MUkBp3XMwAh8">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
+      </div>
+    </div>
 
-.card:nth-child(2):before {
-  background-image: url(https://cdn.wallpapersafari.com/17/52/NQHESK.jpg);
-}
+    <div class="event">
+      <img
+        src="https://lh3.googleusercontent.com/p6ztL-4WnYkOFdLIU_h3Q4D2auvDrW11UdBz4uo59zsqoGiXCPuSMPmvHOHkYSRt0eI=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Roboignitors</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        Innerve'22 brings you: '𝑹𝒐𝒃𝒐 𝑰𝒈𝒏𝒊𝒕𝒐𝒓𝒔' where your motive is to make a bot competent to fight other
+        bots in the battle within a time limit, as well as solve a maze to become the ultimate champion.🕹️
+        <br><br>
+        P𝙧𝙞𝙯𝙚: Pool of 40K<br>
+        𝗧𝗲𝗮𝗺 𝗦𝗶𝘇𝗲: 1-3<br>
+        𝘿𝙖𝙩𝙚: 30th September, 2022<br>
+        𝙏𝙞𝙢𝙚: 1:00 to 3:45 pm<br>
+        𝙑𝙚𝙣𝙪𝙚: Basketball court, IGDTUW<br>
+        𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙞𝙤𝙣 𝙛𝙚𝙚: 50<br>
+        𝙁𝙪𝙧𝙩𝙝𝙚𝙧 𝙦𝙪𝙚𝙧𝙞𝙚𝙨, 𝙘𝙤𝙣𝙩𝙖𝙘𝙩: roboignitors.innerve@gmail.com<br>
+        Ishita Batra (+91 9810206736)
+        <form action="https://www.qrfy.com/hdo5wQg">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
 
-.card:nth-child(3):before {
-  background-image: url(https://coolthemestores.com/wp-content/uploads/2021/04/moon-chrome-theme-wallpaper.jpg);
-}
+      </div>
+    </div>
 
-.card:nth-child(4):before {
-  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
+    <div class="event">
+      <img
+        src="https://lh6.googleusercontent.com/PSZBE5qwsl6VkF20nxBMLGTBmo-42d8joqWhl_CTNGZQcvGHq1DJYxL4O3IgfT9yzR8=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Gearify</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-.content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-  transition: transform var(--d) var(--e);
-  z-index: 1;
-}
+        Get in gear with the Mechanical Engineer inside you because here we bring '𝑮𝒆𝒂𝒓𝒊𝒇𝒚.' Come ready with your
+        toolkits because a fun opportunity awaits you to showcase your grip on the knowledge of gears.
+        <br><br>
+        𝗣𝗿𝗶𝘇𝗲: Pool of 30K<br>
+        𝗧𝗲𝗮𝗺 𝗦𝗶𝘇𝗲: 1-2<br>
+        𝗗𝗮𝘁𝗲: 30th September, 2022<br>
+        𝗧𝗶𝗺𝗲: 4 to 6 pm<br>
+        𝗩𝗲𝗻𝘂𝗲: B.Arch-109, IGDTUW<br>
+        𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗳𝗼𝗿 𝗾𝘂𝗲𝗿𝗶𝗲𝘀: gearify.innerve@gmail.com<br>
+        Nidhi (+91 9599795156)<br>
+        <form action="https://forms.gle/riTPbDLzABzL7qqq9">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
 
-.content>*+* {
-  margin-top: 1rem;
-}
+      </div>
+    </div>
 
-.title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  line-height: 1.2;
-  color: #ffffff;
-  font-family: 'Corinthia', cursive;
-}
+    <div class="event">
+      <img
+        src="https://lh4.googleusercontent.com/uaXQH75UEoIHJy2FIJCcFPcuWww2C-HJTFX8u9LZP0Dw3BqzAp6yxvG_BLvC0_QRaAk=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Dronacharya</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-.copy {
-  font-family: 'Corinthia', cursive;
-  font-size: 1.125rem;
-  font-style: italic;
-  line-height: 1.35;
-  color: #ffffff;
-}
+        𝑪𝒉𝒂𝒍𝒐 𝒖𝒅𝒉𝒂𝒂𝒏 𝒃𝒉𝒂𝒓𝒆 as we bring to you '𝑫𝑹𝑶𝑵𝑨𝑪𝑯𝑨𝑹𝒀𝑨' - a technical brainstorming game
+        where participants will solve problems of stacks and terminologies related to drone making with a chance to
+        showcase their Drone Flying skills.
+        <br><br>
+        𝗣𝗿𝗶𝘇𝗲: Pool of 38K<br>
+        𝗧𝗲𝗮𝗺 𝗦𝗶𝘇𝗲: 2-4 <br>
+        𝗗𝗮𝘁𝗲: 1st October, 2022<br>
+        𝗧𝗶𝗺𝗲: 1:00 to 3:45 pm<br>
+        𝗩𝗲𝗻𝘂𝗲: IGDTUW Ground<br>
+        𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗳𝗼𝗿 𝗾𝘂𝗲𝗿𝗶𝗲𝘀: dronacharyamaetech@gmail.com<br>
+        Yana Parashar (+91 8860278589)<br>
+        <form action="https://unstop.com/o/AfyNptx?lb=eo3Lp5I">
+          <button type="submit" class="btn btn-outline-dark">Register</button>
+        </form>
 
-.btn {
-  cursor: pointer;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border: none;
-}
 
-.btn:hover {
-  background-color: #532E98;
-}
+      </div>
+    </div>
 
-.btn:focus {
-  outline: 1px dashed yellow;
-  outline-offset: 3px;
-}
 
-@media (hover: hover) and (min-width: 600px) {
-  .card:after {
-    transform: translateY(0);
-  }
+  </div>
 
-  .content {
-    transform: translateY(calc(100% - 4.5rem));
-  }
 
-  .content>*:not(.title) {
-    opacity: 0;
-    transform: translateY(1rem);
-    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
 
-  .card:hover,
-  .card:focus-within {
-    align-items: center;
-  }
+  <h1 class="head">
+    Prefest
+  </h1>
+  <div class="events">
 
-  .card:hover:before,
-  .card:focus-within:before {
-    transform: translateY(-4%);
-  }
+    <div class="event">
+      <img
+        src="https://lh6.googleusercontent.com/l6Zpx_kWybT9m-ARxOqb_6z7R_7PN9IRgPkFNhicGODk6MlNfe1a_IzijXjsou9tQZY=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>Get in Gear with Mechanical Engineers</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-  .card:hover:after,
-  .card:focus-within:after {
-    transform: translateY(-50%);
-  }
+        With our speakers, Ms. Patmanjari Nautiyal and Ms. Shaheen, who led our audience by designing the ideal road map
+        for their future, Innerve prepared a captivating session titled "Get in gear with mechanical engineers" under
+        The Tech Thesis.
 
-  .card:hover .content,
-  .card:focus-within .content {
-    transform: translateY(0);
-  }
+      </div>
+    </div>
 
-  .card:hover .content>*:not(.title),
-  .card:focus-within .content>*:not(.title) {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: calc(var(--d) / 8);
-  }
 
-  .card:focus-within:before,
-  .card:focus-within:after,
-  .card:focus-within .content,
-  .card:focus-within .content>*:not(.title) {
-    transition-duration: 0s;
-  }
-}
+    <div class="event">
+      <img
+        src="https://lh4.googleusercontent.com/5-LC6WfVnQLV1MnYdoTpDgwhHaDaErG3r0KtrUot4hvsqjJ-eIKTiHl4rMbYqRDdXDE=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>MECH TO TECH: Shruti Sinha</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-@media (max-width: 300px) {
-  .card {
-    width: 225px;
-  }
-}
+        As part of The Tech Thesis, Innerve organized a session with Shruti Sinha where she discussed her transition
+        from the Mech to Tech world and how she overcame her challenges in order to mentor, inspire, and introduce new
+        opportunities to mechanical students.
 
-/* new code */
-.events {
-  padding-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+      </div>
+    </div>
 
-.event {
-  width: 300px;
-  margin: 3rem;
-  border-radius: 3px;
-  box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
-  background-color: #d818e9af;
-  position: relative;
-  overflow: hidden;
-}
+    <div class="event">
+      <img
+        src="https://lh6.googleusercontent.com/kL_4hDqk6IM_azn60S4gxPrsaejdJFbriMgL-afsnBeJ4vYOrmv7F3or4rY2QoEBFNA=w2400"
+        alt="event">
+      <div class="event-info">
+        <h3>MECH CHARADES</h3>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
 
-.event img {
-  width: 100%;
-  height: 425px;
-}
+        What this session has to offer?
+        ✦ A whole journey involving planning, strategy, and the switch from the domain of mechanics to that of software
+        ✦ Guidance for coding, resume, LinkedIn, and hackathons
+        ✦ How to manage time between college, coding, and societies.
+        ✦ Experience at Adobe:- What to look forward to at Adobe.
 
-.event-info {
-  color: rgba(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Quicksand', sans-serif;
-  justify-content: space-between;
-  /* padding: 0.5rem 1rem 1rem; */
-  /* letter-spacing: 0.5px; */
-  text-align: center;
-}
+      </div>
+    </div>
 
-.event-info h3 {
-  margin-top: 0;
-}
 
-/* .movie-info span {
-  background-color: #C996CC;
-  padding: 0.25rem 0.5rem;
-  margin-top: 10px;
-  border-radius: 3px;
-  color: black;
-  font-weight: bold;
-} */
 
-.overview {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #910aeb;
-  color: #fff;
-  font-weight: 400;
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
-  padding: 1rem;
-  max-height: 100%;
-  transform: translateY(101%);
-  transition: transform 0.3s ease-in;
-}
 
-.overview h3 {
-  font-weight: 500;
-}
 
-.event:hover .overview {
-  transform: translateY(0);
-}
+    <!-- <main class="page-content">
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Tech Tycoons</h2>
+        <p class="copy">Participants need to propose an innovative solution for the given real-world-based problem
+          statement and devise a full-fledged working model.</p>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Space Invaders</h2>
+        <p class="copy">Design and code a project to help satellite agencies figure out the optimum path of satellites
+          in space.Implement it and present a successful space invasion.</p>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Lunar Mission</h2>
+        <p class="copy">Is your imagination strong enough to design a space vehicle?Well, your time is here to come and
+          conquer.Participate with a meticulous design to show your innovation and creativity.</p>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Space Oddity</h2>
+        <p class="copy">A quiz based event to enhance your knowledge in the field of mechanical engineering. Showcase
+          your knowledge and bag a win.
+          It's time to soar high to infinity and beyond!</p>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+  </main> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
 
-.event-info{
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-}
-img{
-  object-fit: cover;
-}
+</html>
